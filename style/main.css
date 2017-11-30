@@ -1,0 +1,63 @@
+body {
+    background-color: #f8daca;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {color: black;}
+a:hover {color:#a52a2a;}
+
+/* Make EVERYTHING use border-box */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav, ul, footer {
+    min-width: 100%;
+    background-color: #d37350;
+}
+
+h1, h2,h3, h4 {
+    padding-top: 5px;
+    background: rgba(211, 115, 80, 0.5);
+    padding-left: 5px;
+}
+
+p {padding-left:5px;}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+#headerimg {
+    width: 100%;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    section, article {
+        width: 50%;
+        padding:5px;
+    }
+    
+    img {
+    object-fit: cover;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+}
