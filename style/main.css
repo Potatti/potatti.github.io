@@ -27,20 +27,6 @@ h1, h2,h3, h4 {
     padding-left: 5px;
 }
 
-p {padding-left:5px;}
-
-img {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    margin-left: 5px;
-}
-
-#headerimg {
-    width: 100%;
-    margin: 0;
-}
-
 ul li {
     display: inline-block;
 }
