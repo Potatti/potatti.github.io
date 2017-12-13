@@ -1,13 +1,5 @@
 body {
-    background-color: #f8daca;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Josefin Sans', sans-serif;
 }
-
-a {color: black;}
-a:hover {color:#a52a2a;}
 
 /* Make EVERYTHING use border-box */
 *, *:before, *:after {
@@ -15,33 +7,75 @@ a:hover {color:#a52a2a;}
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-nav, ul, footer {
-    min-width: 100%;
-    background-color: #d37350;
+.ch_head {
+    background-color: #e2de82;
+    margin:0px;
+    padding-left: 2px;
+    border-radius: 5px;
 }
 
-h1, h2,h3, h4 {
-    padding-top: 5px;
-    background: rgba(211, 115, 80, 0.5);
+.jp_head {
+    background-color: #f595a6;
+    margin:0px;
+    padding-left: 2px;
+    border-radius: 5px;
+}
+
+.res_head {
+    background-color: #cce0ff;
+    margin:0px;
+    padding-left: 2px;
+    border-radius: 5px;
+}
+
+.news_white {
+    color: white;
+    margin-bottom: 2px;
     padding-left: 5px;
 }
 
-ul li {
-    display: inline-block;
+.news_head_ch {
+    color: #fcffba;
+    margin: 0px;
+    padding: 5px;
 }
 
+.news_head_jp {
+    color: #ffc4c4;
+    margin: 0px;
+    padding: 5px;
+}
+.news_block {
+    margin: 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.news_block:hover {
+    margin: 0px;
+    background-color: rgb(51, 59, 83);
+    text-decoration: none;
+}
+
+.link {
+    display: inline-block;
+    width: 175px;
+    margin: 0px;
+    padding: 5px 0px 0px 0px
+}
+.link_icon {
+    margin-right: 5px;
+    width: 30px;
+    margin-bottom: 0px;
+}
+
+a {cursor: pointer;}
+li {margin-left: 30px;}
+h3 {
+    
+}
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    section, article {
-        width: 50%;
-        padding:5px;
-    }
-    
-    img {
-    object-fit: cover;
-    }
 }
 
 /* Desktop Styles */
