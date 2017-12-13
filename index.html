@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="media/images/logo.PNG" style="width:60px; border-radius:5px; margin:0px;">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="#">Ship page</a></li>
+        <li><a href="#">--</a></li>
+        <li><a href="#">Geo</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs" style="max-width:300px">
+      <img src="media/images/logo.PNG" style="width:100%; margin-top:15px; border-radius:5px;">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="#">Ship page</a></li>
+        <li><a href="#">--</a></li>
+        <li><a href="#">Geo</a></li>
+      </ul><br>
+    </div>
+    <br>
+    
+      <h2 style="margin-left:15px; margin-top:0px;">Azur Lane</h2>
+    <div class="col-sm-9">
+      <div id="green" style="background-color: #edfff2;" class="well">
+        <p>Azur Lane (碧蓝航线) is a Chinese mobile game developed by Manjuu and Yongshi, published by bilibili for both iOS and Android. Service began on May 25th, 2017 for iOS and June 2nd, 2017 for Android.</p>
+        <p>
+        Japanese servers (アズールレーン) opened up on September 14th, 2017 for both iOS and Android.
+        </p>
+      </div>
+        <!-- CH STUFF -->
+        <div class="row">
+        <div class="col-sm-3">
+          <div class="well" style="background-color:#fbffcf; padding:5px;">
+              <h2 class="ch_head">Chinese Server News</h2>
+              <br><br>
+                <a style="text-decoration:none"><div class="news_block">
+                      <h3 class="news_head_ch">[Ongoing] The Return of the War God</h3>
+                      <p class="news_white">(Dec 1 - Dec 11) Get new limited IJN ships and special equipment!</p>
+                    
+                </div></a>
+                <a style="text-decoration:none"><div class="news_block">
+                      <h3 class="news_head_ch">[Ended] Tea Time Event</h3>
+                      <p class="news_white">(Nov 23 - Nov 30) New skins and Puzzle tasks!</p>
+                    
+                </div></a>
+                <a style="text-decoration:none"><div class="news_block">
+                      <h3 class="news_head_ch">November 23rd Patch Notes</h3>
+                      <p class="news_white">Tea Time Event, New Skins, Cassin and Downes retrofits</p>
+                    
+                </div></a>
+          </div>
+        </div>
+            
+        <div class="col-sm-3">
+          <div class="well" style="background-color:#fbffcf; padding:5px;">
+              <h2 class="ch_head">Chinese Client Links</h2>
+                <div>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="http://www.azurlane.jp/">Official Website</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="http://azurlane.wikiru.jp/">Chinese Wiki</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="https://apps.qoo-app.com/en/app/5488">Android QooApp</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="http://www.azurlane.jp/">Registration Guide</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="https://twitter.com/azurlane_staff">Staff Weibo</a></p>
+                </div>
+          </div>
+        </div>
+        
+        <!-- JP STUFF -->
+        <div class="col-sm-3">
+          <div class="well" style="background-color:#f8bcbc; padding:5px;">
+              <h2 class="jp_head">Japanese Server News</h2>
+              <br><br>
+                <a style="text-decoration:none"><div class="news_block">
+                      <h3 class="news_head_jp">December 15th Patch Notes</h3>
+                      <p class="news_white">Twitter Account Linking</p>
+                    
+                </div></a>
+                <a style="text-decoration:none"><div class="news_block">
+                      <h3 class="news_head_jp">[Ongoing] Tea Time Event</h3>
+                      <p class="news_white">(Dec 7 - Dec 14) New skins and Puzzle tasks!</p>
+                    
+                </div></a>
+                <a style="text-decoration:none"><div class="news_block">
+                      <h3 class="news_head_jp">[December 7th Patch Notes</h3>
+                      <p class="news_white">Tea Time Event, Ayanami retrofit and ships in construction!</p>
+                    
+                </div></a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well" style="background-color:#f8bcbc; padding:5px;">
+              <h2 class="jp_head">Japanese Client Links</h2>
+                <div>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="http://www.azurlane.jp/">Official Website</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="http://azurlane.wikiru.jp/">Japanese Wiki</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="https://apps.qoo-app.com/en/app/5488">Android QooApp</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="https://twitter.com/azurlane_staff">Staff Twitter</a></p>
+                </div>
+          </div>
+        </div>
+          <!-- Resource STUFF -->
+        <div class="col-sm-3">
+          <div class="well" style="background-color:#e8f0ff; padding:5px;">
+              <h2 class="res_head">Tutorials</h2>
+                <div>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#">Server List</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#">Getting Started</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#">Glossary</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#">FAQ</a></p>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#">Troubleshooting</a></p>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well" style="background-color:#e8f0ff; padding:5px;">
+              <h2 class="res_head">Gameplay and Mechanics</h2>
+                <div>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#"><strong>Ships</strong></a></p>
+                    <a><li>Retrofit</li></a>
+                    <a><li>Limit Break</li></a>
+                    <a><li>Equipping</li></a>
+                    <a><li>Reinforce</li></a>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#"><strong>Equipment</strong></a></p>
+                    <a><li>Upgrading</li></a>
+                    <a><li>Design</li></a>
+                    <p class="link"><img class="link_icon" src="media/images/Home_item_vamp.png"><a href="#"><strong>Academy</strong></a></p>
+                    <a><li>Classroom</li></a>
+                    <a><li>Canteen</li></a>
+                    <a><li>Merchant</li></a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer>
+        <p>By Esa Lehtinen.<br>
+        Based on the Azur Lane english wiki site</p>
+    </footer>
+</div>
+
+</body>
+</html>
