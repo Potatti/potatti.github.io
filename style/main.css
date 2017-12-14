@@ -103,6 +103,10 @@ h3 {
     .news_block {
         width: 100%;
     }
+    #teatimeCG{
+        min-width: 400px;
+        max-width: 600px;
+    }
 }
 
 /* Desktop Styles */
@@ -114,5 +118,9 @@ h3 {
     padding: 5px;
     height: 30px;
     list-style-type: none;
+    }
+    
+    #teatimeCG{
+        min-width: 500px;
     }
 }
