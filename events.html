@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+    
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="media/images/logo.PNG" style="width:60px; border-radius:5px; margin:0px;">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Main Page</a></li>
+        <li><a href="#">Ship page</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs" style="max-width:300px;">
+      <img src="media/images/logo.PNG" style="width:100%; margin:15px 0px 15px 0px; border-radius:5px;">
+      <ul>
+        <li class="navigation_link"><a href="#">Main Page</a></li>
+        <li class="navigation_link"><a href="#">Ship page</a></li>
+        <li class="navigation_link"><a href="#">Events</a></li>
+      </ul><br>
+    </div>
+    <br>
+    
+      
+    <div class="col-sm-9" style="border: 2px solid #c0e2ff; border-radius:2px; background-color: white;">
+    <h2 style="margin-top:20px; border-bottom:1px solid black;">Warspite</h2>
+      <div id="green" style="background-color: #edfff2;" class="well">
+        
+      </div>
+        <!-- CH STUFF -->
+        <div class="row">
+        <div class="col-sm-6">
+          <div class="well" style="background-color:#fbffcf; padding:5px;">
+              
+          </div>
+        </div>
+            
+        
+        
+        <!-- JP STUFF -->
+        <div class="col-sm-6">
+          <div class="well" style="background-color:#f8bcbc; padding:5px;">
+              
+          </div>
+        </div>
+            
+            <!-- CN STUFF -->
+            <div class="col-sm-6">
+          <div class="well" style="background-color:#fbffcf; padding:5px;">
+              
+          </div>
+        </div>
+            
+            
+        <div class="col-sm-6">
+          <div class="well" style="background-color:#f8bcbc; padding:5px;">
+              
+          </div>
+        </div>
+          <!-- Resource STUFF -->
+        <div class="col-sm-4">
+          <div class="well" style="background-color:#e8f0ff; padding:5px;">
+              
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well" style="background-color:#e8f0ff; padding:5px;">
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
