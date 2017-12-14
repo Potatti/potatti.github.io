@@ -84,6 +84,31 @@ h3 {
     
 }
 
+.plist {
+    display: list-item; 
+    list-style-type: disc;       
+    list-style-position: inside; 
+}
+
+.centers {
+    text-align: center;
+    margin: auto;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     .news_block {

@@ -1,148 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Warspite</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 550px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-        
-    /* On small screens, set height to 'auto' for the grid */
-    @media screen and (max-width: 767px) {
-      .row.content {height: auto;} 
-    }
-  </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
     
-
+<body>
 <nav class="navbar navbar-inverse visible-xs">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <img src="media/images/logo.PNG" style="width:60px; border-radius:5px; margin:0px;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <img src="media/images/logo.PNG" style="width:60px; border-radius:5px; margin:0px;">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="warspite.html">Ship page</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Main Page</a></li>
-        <li><a href="warspite.html">Ship page</a></li>
-        <li><a href="events.html">Events</a></li>
-      </ul>
-    </div>
-  </div>
 </nav>
 
 <div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav hidden-xs" style="max-width:300px;">
-      <img src="media/images/logo.PNG" style="width:100%; margin:15px 0px 15px 0px; border-radius:5px;">
-      <ul>
-        <li class="navigation_link"><a href="index.html">Main Page</a></li>
-        <li class="navigation_link"><a href="warspite.html">Ship page</a></li>
-        <li class="navigation_link"><a href="events.html">Events</a></li>
-      </ul><br>
+    <div class="row content">
+        <div class="col-sm-3 sidenav hidden-xs" style="max-width:300px;">
+            <img src="media/images/logo.PNG" style="width:100%; margin:15px 0px 15px 0px; border-radius:5px;">
+            <ul>
+                <li class="navigation_link"><a href="index.html">Main Page</a></li>
+                <li class="navigation_link"><a href="warspite.html">Ship page</a></li>
+                <li class="navigation_link"><a href="events.html">Events</a></li>
+            </ul><br>
+        </div>
+        <br>
+        <div class="col-sm-9" style="border: 2px solid #c0e2ff; border-radius:2px; background-color: white;">
+            <h2 style="margin-top:20px; border-bottom:1px solid black;">Warspite</h2>
+            <div class="well" style="background-color:white">
+                <div style="overflow-x:auto;">
+                    <table class="table table-bordered">
+                        <th colspan="6">Warspite (cn: 厌战; jp: ウォースパイト)
+                        </th>
+                        <tr>
+                        <td style="vertical-align: middle; text-align: center; background-color: PaleGoldenrod" rowspan="3" width="5%"><img alt="WarspiteIcon.png" src="media/images/WarspiteIcon.png" width="116" height="116"/>
+                        </td>
+                        <th style="width:10%">ID No.
+                        </th>
+                        <td style="width:20%">131
+                        </td>
+                        <th style="width:10%">Rarity
+                        </th>
+                        <td style="background-color:PaleGoldenrod">Super Rare<br />★★★☆☆☆
+                        </td></tr>
+                        <tr>
+                        <th>Nationality
+                        </th>
+                        <td><a href="#">Royal Navy</a>
+                        </td>
+                        <th>Construction Time
+                        </th>
+                        <td colspan="2">04:10:00
+                        </td></tr>
+                        <tr>
+                        <th>Hull Type
+                        </th>
+                        <td style="background-color: Pink"><a href="#">Battleship</a>
+                        </td>
+                        <th>Hull Class
+                        </th>
+                        <td colspan="2">BB
+                        </td></tr>
+                    </table>
+                </div>
+
+        <div style="overflow-x:auto;">
+            <table class="table table-bordered">
+                <tr>
+                <th>Ship Stats</th>
+                <th><img style="padding-right:5px" src="media/images/25px-Firepower.png" title="Firepower" alt="Firepower">S</th>
+                <th><img style="padding-right:5px" src="media/images/25px-Duration.png" title="Duration" alt="Duration">A</th>
+                <th><img style="padding-right:5px" src="media/images/25px-AntiAir.png" title="Anti Air" alt="Anti Air">D</th>
+                <th><img style="padding-right:5px" src="media/images/25px-Evasion.png" title="Evasion" alt="Evasion">D</th>
+                <th><img style="padding-right:5px" src="media/images/25px-Aviation.png" title="Aviation" alt="Aviation">E</th>
+                <th><img style="padding-right:5px" src="media/images/25px-Torpedo.png" title="Torpedo" alt="Torpedo">E</th>
+                </tr>
+                <tr>
+            </table>
+            <table class="table table-bordered">
+                <tr>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Firepower.png" title="Firepower" alt="Firepower">84→396</td>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Duration.png" title="Duration" alt="Duration">1298→6710</td>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-AntiAir.png" title="Anti Air" alt="Anti Air">41→191</td>
+                </tr>
+                <tr>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Evasion.png" title="Evasion" alt="Evasion">6→15</td>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Aviation.png" title="Aviation" alt="Aviation">0→0</td>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Torpedo.png" title="Torpedo" alt="Torpedo">0→0</td>
+                </tr>
+                <tr>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Armor.png" title="Armor" alt="Armor">Heavy</td>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Refill.png" title="Refill" alt="Refill">58→138</td>
+                <td colspan="1"><img style="padding-right:5px" src="media/images/25px-Consumption.png" title="Consumption" alt="Consumption">5→15</td>
+                </tr>
+            </table>
+        </div>
+            <table class="table table-bordered">
+                <tr><th>CG Art</th></tr>
+                <td>
+                <a href="media/images/Warspite.png"><img alt="warspite_CG" src="media/images/Warspite.png" style="width:100%; max-width:500px"></a></td>
+            </table>
+
+        </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="well" style="background-color:#fbffcf; padding:5px;">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="well" style="background-color:#f8bcbc; padding:5px;">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="well" style="background-color:#fbffcf; padding:5px;">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="well" style="background-color:#f8bcbc; padding:5px;">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <br>
-    
-      
-    <div class="col-sm-9" style="border: 2px solid #c0e2ff; border-radius:2px; background-color: white;">
-    <h2 style="margin-top:20px; border-bottom:1px solid black;">Warspite</h2>
-      <div id="green" style="background-color: #edfff2;" class="well">
-        <table class="table table-bordered">
-            
-        <th colspan="6">Warspite (cn: 厌战; jp: ウォースパイト)
-        </th>
-        <tr>
-        <td rowspan="3" width="5%" style="background-color: PaleGoldenrod"><img alt="WarspiteIcon.png" src="media/images/WarspiteIcon.png" width="116" height="116"/>
-        </td>
-        <th style="width:10%">ID No.
-        </th>
-        <td style="width:20%">131
-        </td>
-        <th style="width:10%">Rarity
-        </th>
-        <td colspan="2" style="background-color:PaleGoldenrod">Super Rare<br />★★★☆☆☆
-        </td></tr>
-        <tr>
-        <th>Nationality
-        </th>
-        <td><a href="#">Royal Navy</a>
-        </td>
-        <th>Construction Time
-        </th>
-        <td colspan="2">04:10:00
-        </td></tr>
-        <tr>
-        <th>Hull Type
-        </th>
-        <td style="background-color: Pink"><a href="#">Battleship</a>
-        </td>
-        <th>Hull Class
-        </th>
-        <td colspan="2">BB
-        </td></tr>
-          
-        </table>
-      </div>
-        <!-- CH STUFF -->
-        <div class="row">
-        <div class="col-sm-6">
-          <div class="well" style="background-color:#fbffcf; padding:5px;">
-              
-          </div>
-        </div>
-            
-        
-        
-        <!-- JP STUFF -->
-        <div class="col-sm-6">
-          <div class="well" style="background-color:#f8bcbc; padding:5px;">
-              
-          </div>
-        </div>
-            
-            <!-- CN STUFF -->
-            <div class="col-sm-6">
-          <div class="well" style="background-color:#fbffcf; padding:5px;">
-              
-          </div>
-        </div>
-            
-            
-        <div class="col-sm-6">
-          <div class="well" style="background-color:#f8bcbc; padding:5px;">
-              
-          </div>
-        </div>
-          <!-- Resource STUFF -->
-        <div class="col-sm-4">
-          <div class="well" style="background-color:#e8f0ff; padding:5px;">
-              
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="well" style="background-color:#e8f0ff; padding:5px;">
-              
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 </body>
