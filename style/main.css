@@ -54,17 +54,6 @@ body {
     margin: 0px;
     padding: 5px;
 }
-.news_block {
-    min-height: 120px;
-    margin-bottom: 2px;
-    background: linear-gradient(to right, rgb(51, 59, 83), rgba(0, 0, 0, 0.65) , rgba(113, 113, 113, 0.28));
-}
-
-.news_block:hover {
-    margin: 0px;
-    background-color: rgb(51, 59, 83);
-    text-decoration: none;
-}
 
 .link {
     display: inline-block;

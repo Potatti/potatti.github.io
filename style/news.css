@@ -1,0 +1,85 @@
+.news_block1 {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.87) , rgba(113, 113, 113, 0)), url(../media/images/news/wargod.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block2 {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.87) , rgba(113, 113, 113, 0)), url(../media/images/news/tea.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block3 {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.87) , rgba(113, 113, 113, 0)), url(../media/images/news/patch.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block4 {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.87) , rgba(113, 113, 113, 0)), url(../media/images/news/patch.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block5 {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.87) , rgba(113, 113, 113, 0)), url(../media/images/news/tea.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block6 {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.87) , rgba(113, 113, 113, 0)), url(../media/images/news/patch.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news_block1:hover {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 56, 56, 0.87) , rgba(209, 209, 209, 0.25)), url(../media/images/news/wargod.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block2:hover {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 56, 56, 0.87) , rgba(209, 209, 209, 0.25)), url(../media/images/news/tea.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block3:hover {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 56, 56, 0.87) , rgba(209, 209, 209, 0.25)), url(../media/images/news/patch.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block4:hover {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 56, 56, 0.87) , rgba(209, 209, 209, 0.25)), url(../media/images/news/patch.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block5:hover {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 56, 56, 0.87) , rgba(209, 209, 209, 0.25)), url(../media/images/news/tea.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_block6:hover {
+    min-height: 120px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 56, 56, 0.87) , rgba(209, 209, 209, 0.25)), url(../media/images/news/patch.png);"
+    background-repeat: no-repeat;
+    background-position: center;
+}
